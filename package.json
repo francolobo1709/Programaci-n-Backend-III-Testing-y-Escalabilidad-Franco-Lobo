@@ -1,0 +1,16 @@
+{
+  "name": "shipnow-api",
+  "version": "1.0.0",
+  "description": "API inicial de ShipNow con arquitectura por capas y configuración validada",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
